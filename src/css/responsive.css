@@ -19,8 +19,12 @@
 }
 
 @media(max-width:380px){
+    .app .info .title{
+        margin-bottom: 15px;
+    }
+
     .app .info .text-info{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 17px;
     }
 }
