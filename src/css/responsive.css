@@ -13,7 +13,14 @@
     }
 
     .app .info{
-        margin: 30px 20px;
+        margin: 30px 20px 10px;
         text-align: center;
+    }
+}
+
+@media(max-width:380px){
+    .app .info .text-info{
+        font-size: 14px;
+        line-height: 20px;
     }
 }
