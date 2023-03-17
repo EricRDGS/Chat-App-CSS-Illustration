@@ -1,9 +1,8 @@
 html{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    background: url(../images/designer.svg) no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background: url(../images/bg-purple.svg) no-repeat left top, url(../images/bg-white.svg) no-repeat right bottom;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +17,7 @@ html{
 }
 
 .app .phone{
-    min-width: 250px;
+    min-width: 280px;
     border-radius: 25px;
     background-color: white;
     border: 10px solid #fff;
