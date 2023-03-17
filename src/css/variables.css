@@ -1,0 +1,15 @@
+:root{
+    --text-pale: hsl(276, 100%, 81%);
+    --text-moderate: hsl(276, 55%, 52%);
+    --text-desatured: hsl(271, 15%, 43%);
+    --text-grayish: hsl(210, 20%, 96%);
+    --text-very: hsl(271, 36%, 24%);
+    --text-dark: hsl(274, 18%, 85%);
+
+    --gradient-light-one: hsl(293, 100%, 63%);
+    --gradient-light-two: hsl(264, 100%, 61%);
+
+    --secondary-bg: hsl(270, 20%, 96%);
+    --secondary-btn-bg: hsl(271, 36%, 24%);
+    --secondary-btn: hsl(289, 100%, 72%);
+}

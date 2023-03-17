@@ -1,0 +1,274 @@
+html{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background: url(../images/designer.svg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    gap: 70px;
+}
+
+.app .phone{
+    min-width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    border: 10px solid #fff;
+    box-shadow: 1px 1px 6px var(--text-dark);
+    position: relative;
+    margin-left: 50px;
+}
+
+.app .phone .user{
+    background-image: linear-gradient(to left,var(--gradient-light-one), var(--gradient-light-two));
+    border-radius: 20px 20px 5px 5px;
+    padding: 25px 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.app .user .complement{
+    content: '';
+    width: 135px;
+    height: 20px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    display: inline-block;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.app .phone .user img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: 0 10px 0 15px;
+}
+
+.app .phone .user::after{
+    content: '';
+    height: 6px;
+    width: 2.5px;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(35deg);
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 54%;
+}
+
+.app .phone .user::before{
+    content: '';
+    height: 6px;
+    width: 2.5px;
+    border-radius: 0 0 10px 10px;
+    transform: rotate(-35deg);
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+}
+
+.app .phone .user .profile{
+    display: flex;
+}
+
+.app .phone .user .name-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.app .phone .user .name-text::after{
+    content: '';
+}
+
+.app .phone .user .name-text .user-name{
+    font-size: 12px;
+    color: white;
+}
+
+.app .phone .user .name-text .mini-text{
+    font-size: 8px;
+    color: var(--text-pale);
+}
+
+.app .phone .user .three-points{
+    position: relative;
+}
+
+.app .phone .user .three-points .point{
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+.app .phone .user .three-points .point::before{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: -120%;
+}
+
+.app .phone .user .three-points .point::after{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: -140%;
+}
+
+.app .phone .main-phone{
+    font-size: 10px;
+    color: var(--text-moderate);
+    background-color: var(--text-grayish);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.app .phone .main-phone .text{
+    padding: 6px;
+    margin: 5px 0;
+}
+
+.app .phone .main-phone .my-text{
+    max-width: 150px;
+    border-radius: 10px 10px 10px 0;
+    background-color: var(--text-dark);
+    box-shadow: 1px 1px 4px var(--text-desatured);
+    margin: 5px 0;
+}
+
+.app .phone .main-phone .another-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.app .phone .main-phone .another-text .photo-collection img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--text-desatured);
+}
+
+.app .phone .main-phone .another-text .inverted-text{
+    max-width: 130px;
+    color: var(--text-desatured);
+    background-color: #fff;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: -1px 1px 4px var(--text-desatured);
+}
+
+.app .phone .main-phone .set-walk{
+    color: var(--text-grayish);
+    margin: 5px 0;
+}
+
+.app .phone .main-phone .set-walk .walk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 2px;
+    background-image: linear-gradient(to right,var(--gradient-light-one), var(--gradient-light-two));
+    margin-top: 10px;
+}
+
+.app .phone .main-phone .set-walk .walk::before{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--text-grayish);
+    border-radius: 100%;
+}
+
+.app .phone .main-phone .set-walk .walk .value{
+    font-size: 14px;
+}
+
+.app .phone .main-phone .message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-dark);
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    text-indent: 20px;
+}
+
+.app .phone .main-phone .message .arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--text-very);
+    position: relative;
+}
+
+.app .phone .main-phone .message .arrow::before{
+    content: '';
+    height: 10px;
+    width: 2.5px;
+    border-radius: 10px 10px 0 0;
+    transform: rotate(-45deg);
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 24%;
+}
+
+.app .phone .main-phone .message .arrow::after{
+    content: '';
+    height: 10px;
+    width: 2.5px;
+    border-radius: 0 0 10px 10px;
+    transform: rotate(45deg);
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 24%;
+}
+
+.app .info{
+    max-width: 450px;
+    margin-right: 50px;
+}
+
+.app .info .title{
+    color: var(--text-very);
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.app .info .text-info{
+    color: var(--text-desatured);
+    line-height: 25px;
+}
